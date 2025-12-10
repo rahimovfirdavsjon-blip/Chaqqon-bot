@@ -1,2 +1,35 @@
-chaqqoncargobot-1bab83dd20f1.json
-chaqqoncargobot-1bab83dd20f1.json
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Secrets
+google_credentials.json
+chaqqoncargobot-*.json
+credentials.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Render
+render.yaml  # если хочешь скрыть конфиг
